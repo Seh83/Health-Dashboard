@@ -1,0 +1,23 @@
+<!-- State Select -->
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Select State To View Data</mat-card-title>
+  </mat-card-header>
+  <mat-card-content style="margin-left: 1%">
+    <app-state-select [state_list]="state_list" (selectedState)="stateChange($event)"></app-state-select>
+  </mat-card-content>
+</mat-card>
+<!-- Table Data -->
+
+<mat-card style="width: 50%; margin-top: 3%; display: inline-block">
+  <mat-card-content>
+    <app-table-component [selected_data]="selected_data"></app-table-component>
+  </mat-card-content>
+</mat-card>
+
+<!-- Data Graph -->
+<mat-card style="width: 40%; margin-top: 3%; display: inline-block">
+  <mat-card-content>
+    <app-graph-component [selected_data]="selected_data"></app-graph-component>
+  </mat-card-content>
+</mat-card>

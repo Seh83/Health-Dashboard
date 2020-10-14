@@ -1,0 +1,13 @@
+<mat-form-field appearance="fill">
+  <mat-label>state</mat-label>
+  <select matNativeControl (change)="onStateChange($event)">
+    <option value=""></option>
+    <option
+      *ngFor="let state of state_list"
+      [value]="state"
+      [selected]="selected === state"
+    >
+      {{ state }}
+    </option>
+  </select>
+</mat-form-field>
