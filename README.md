@@ -1,2 +1,10 @@
 # Health-Dashboard
 Health Dashboard with Angular 9 
+
+TO RUN THIS PROJECT:
+
+1. GIT CLONE THE REPO
+2. CD INTO THE REPO/PROJECT FOLDER
+3. GO T0 COMMAND LINE / TERMINAL AND MAKE SURE YOU ARE IN THE PROJECT FOLDER
+4. RUN "npm install"
+5. RUN "ng serve --open"
